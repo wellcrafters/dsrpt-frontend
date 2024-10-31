@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 1rem 5rem;
+    z-index: 1000;
+}
+
+.logo img{
+    height: auto;
+    width: 7.5rem;
+}
+.nav-action-button a{
+    border: 1px solid var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    color: var(--white);
+    font-size: 1.25rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav-action-button a svg{
+    transform: rotate(-45deg);
+}
+.nav-action-button a:hover svg path{
+    transition: all 0.7s 0.01s cubic-bezier(0.55, 0, 0.1, 1);
+}
+.nav-action-button a:hover svg path{
+    fill: var(--black) !important;
+    transition: all 0.7s 0.01s cubic-bezier(0.55, 0, 0.1, 1);
+}

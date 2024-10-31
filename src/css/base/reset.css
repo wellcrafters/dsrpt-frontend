@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+    font-optical-sizing: auto;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+
+#main{
+    width: 100%;
+    margin: 0 auto;
+}

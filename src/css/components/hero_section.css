@@ -1,0 +1,105 @@
+#hero-section {
+    width: 100%;
+    /* height: 90vh; */
+    height: 100vh;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 5rem 5rem 0 5rem;
+    position: relative;
+}
+.h-line-wrapper{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.h-line{
+    height: 100%;
+    border: 1px solid var(--white-25);
+}
+
+.h-line:nth-child(1){
+    border: 1px solid rgba(2, 72, 255, 0.30);
+}
+.h-line:nth-child(2){
+    border: 1px solid rgba(199, 32, 39, 0.30);
+}
+.h-line:nth-child(3){
+    border: 1px solid rgba(0, 128, 0, 0.30);
+}
+.h-line:nth-child(4){
+    border: 1px solid rgba(177, 0, 205, 0.30);
+}
+.h-line:nth-child(5){
+    border: 1px solid rgba(255, 96, 14, 0.30);
+}
+
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+    position: relative;
+    width: fit-content;
+}
+
+
+.hero-content-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    padding: 0 2vw;
+}
+
+.hero-content-top p{
+    color: white;
+}
+.hero-content-top p:first-child{
+    font-size: 6vw;
+    line-height: 4vw;
+    font-weight: 600;
+    align-self: flex-end;
+}
+.hero-content-top p:last-child{
+    width: 50%;
+    align-self: flex-end;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+.hero-content-middle {
+    position: relative;
+}
+.hero-content-middle h1 {
+    font-family: sans-serif;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 25vw;
+    line-height: 22vw;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.hero-content-middle h1 span {
+    display: inline-block;
+    will-change: transform;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision;
+    will-change: transform;
+}
